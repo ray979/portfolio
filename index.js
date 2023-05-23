@@ -1,10 +1,10 @@
-/*Hide full size grad image*/
+/*Reveal full size grad image*/
 document.querySelector("#grad-image").addEventListener("click", function () {
   document.querySelector(".popup-images").style.display = "block";
 });
 
 
-/*Reveal full size grad image*/
+/*Hide full size grad image*/
 document
   .querySelector(".popup-images span")
   .addEventListener("click", function () {
