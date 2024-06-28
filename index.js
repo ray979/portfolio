@@ -26,6 +26,7 @@ window.addEventListener("scroll", function changeSkillLevel() {
   }
 });
 
+/*Project Videos Preview Playing*/
 document.querySelectorAll("video.card-img-top").forEach(function (video){
   video.addEventListener("mouseover", function(e){
     video.play();
